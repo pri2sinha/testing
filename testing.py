@@ -1,1 +1,1 @@
-i am doing good!!:
+I am studying now!!
