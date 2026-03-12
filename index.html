@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>DevOps Learning Hub</title>
+<title>Venkat DevOps Training</title>
 
 <style>
 
@@ -21,7 +21,7 @@ header{
 }
 
 .logo{
-    font-size:22px;
+    font-size:24px;
     font-weight:bold;
     color:#ff00cc;
 }
@@ -44,22 +44,21 @@ nav a:hover{
     padding:60px;
 }
 
+.hero img{
+    width:420px;
+    border-radius:10px;
+}
+
 .hero-text{
     max-width:500px;
 }
 
 .hero-text h1{
-    font-size:60px;
-    margin:0;
+    font-size:55px;
 }
 
 .hero-text span{
     color:#ff00cc;
-}
-
-.hero-text p{
-    color:#cccccc;
-    line-height:1.6;
 }
 
 .btn{
@@ -71,15 +70,6 @@ nav a:hover{
     color:white;
     font-weight:bold;
     border-radius:4px;
-}
-
-.btn:hover{
-    background:#cc0099;
-}
-
-.hero img{
-    width:450px;
-    border-radius:10px;
 }
 
 .section{
@@ -99,19 +89,23 @@ nav a:hover{
     padding:30px;
     width:220px;
     border-radius:10px;
-    transition:0.3s;
 }
 
-.card:hover{
-    transform:translateY(-8px);
-    background:#262626;
+.trainer{
+    text-align:center;
+    padding:60px;
+}
+
+.trainer img{
+    width:350px;
+    border-radius:10px;
+    margin-top:20px;
 }
 
 footer{
     text-align:center;
     padding:20px;
     background:#111;
-    color:#aaa;
 }
 
 </style>
@@ -124,10 +118,11 @@ footer{
 
 <nav>
 <a href="#">Home</a>
-<a href="#">About</a>
+<a href="#">Training</a>
 <a href="#">Tools</a>
 <a href="#">Contact</a>
 </nav>
+
 </header>
 
 
@@ -138,17 +133,20 @@ footer{
 <h1>LEARN <span>DEVOPS</span></h1>
 
 <p>
-Master modern DevOps tools including Git, GitHub, Docker,
-Kubernetes, CI/CD pipelines, Terraform and AWS.
-Practice real deployments and automation.
+Welcome to Venkat DevOps Training. Learn real-world DevOps tools
+including Git, Docker, Kubernetes, Terraform and AWS.
 </p>
 
-<a class="btn" href="#">Start Learning</a>
+<a class="btn" href="#">Join Training</a>
 
 </div>
 
 <div>
-<img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31" alt="DevOps">
+
+<!-- FIRST IMAGE FROM S3 -->
+
+<img src="https://priyanka-devops-web.s3.ap-south-1.amazonaws.com/venkat.png">
+
 </div>
 
 </section>
@@ -161,13 +159,13 @@ Practice real deployments and automation.
 
 <div class="cards">
 
-<div class="card">🐧 Linux</div>
-<div class="card">🌳 Git & GitHub</div>
-<div class="card">⚙ Jenkins CI/CD</div>
-<div class="card">🐳 Docker</div>
-<div class="card">☸ Kubernetes</div>
-<div class="card">☁ AWS</div>
-<div class="card">🏗 Terraform</div>
+<div class="card">Linux</div>
+<div class="card">Git & GitHub</div>
+<div class="card">Jenkins</div>
+<div class="card">Docker</div>
+<div class="card">Kubernetes</div>
+<div class="card">AWS</div>
+<div class="card">Terraform</div>
 
 </div>
 
@@ -175,9 +173,25 @@ Practice real deployments and automation.
 
 
 
+<section class="trainer">
+
+<h2>Trainer : Venkat</h2>
+
+<p>
+This training program provides practical DevOps knowledge including
+CI/CD pipelines, infrastructure automation and cloud deployment.
+</p>
+
+<!-- SECOND IMAGE FROM S3 -->
+
+<img src="https://priyanka-devops-web.s3.ap-south-1.amazonaws.com/devops.jpg">
+
+</section>
+
+
 <footer>
 
-<p>DevOps Practice Project | Created by Priyanka</p>
+<p>DevOps Training Practice | Created by Priyanka Sinha</p>
 
 </footer>
 
