@@ -37,20 +37,24 @@ nav a:hover{
     color:#ff00cc;
 }
 
+/* Trainer title at top */
+
+.trainer-top{
+    text-align:center;
+    font-size:26px;
+    color:#ff00cc;
+    margin-top:10px;
+    font-weight:bold;
+}
+
 .hero{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+    text-align:center;
     padding:60px;
 }
 
-.hero img{
-    width:420px;
-    border-radius:10px;
-}
-
 .hero-text{
-    max-width:500px;
+    max-width:700px;
+    margin:auto;
 }
 
 .hero-text h1{
@@ -59,6 +63,20 @@ nav a:hover{
 
 .hero-text span{
     color:#ff00cc;
+}
+
+/* images side by side */
+
+.images{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:40px;
+}
+
+.images img{
+    width:420px;
+    border-radius:10px;
 }
 
 .btn{
@@ -91,17 +109,6 @@ nav a:hover{
     border-radius:10px;
 }
 
-.trainer{
-    text-align:center;
-    padding:60px;
-}
-
-.trainer img{
-    width:350px;
-    border-radius:10px;
-    margin-top:20px;
-}
-
 footer{
     text-align:center;
     padding:20px;
@@ -122,8 +129,13 @@ footer{
 <a href="#">Tools</a>
 <a href="#">Contact</a>
 </nav>
-
 </header>
+
+<!-- Trainer Name at Top -->
+
+<div class="trainer-top">
+Trainer : Venkat
+</div>
 
 
 <section class="hero">
@@ -141,11 +153,13 @@ including Git, Docker, Kubernetes, Terraform and AWS.
 
 </div>
 
-<div>
+<!-- Images Side by Side -->
 
-<!-- FIRST IMAGE FROM S3 -->
+<div class="images">
 
-<img src="https://priyanka-devops-web.s3.ap-south-1.amazonaws.com/venkat.png">
+<img src="https://priyanka-devops-web.s3.ap-south-1.amazonaws.com/venkat.png" alt="Venkat Trainer">
+
+<img src="https://priyanka-devops-web.s3.ap-south-1.amazonaws.com/devops.jpg" alt="DevOps Image">
 
 </div>
 
@@ -168,23 +182,6 @@ including Git, Docker, Kubernetes, Terraform and AWS.
 <div class="card">Terraform</div>
 
 </div>
-
-</section>
-
-
-
-<section class="trainer">
-
-<h2>Trainer : Venkat</h2>
-
-<p>
-This training program provides practical DevOps knowledge including
-CI/CD pipelines, infrastructure automation and cloud deployment.
-</p>
-
-<!-- SECOND IMAGE FROM S3 -->
-
-<img src="https://priyanka-devops-web.s3.ap-south-1.amazonaws.com/devops.jpg">
 
 </section>
 
